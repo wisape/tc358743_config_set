@@ -1,3 +1,4 @@
+#export CC = arm-none-linux-gnueabi-gcc
 export CC = gcc
 
 CFLAGS= -I./ -fPIC -Wall -lm

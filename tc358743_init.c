@@ -475,6 +475,9 @@ void start_camera_streaming(int fd)
 	}
 
 	write_regs(fd, cmds2, NUM_REGS_CMD2);
+
+	write_regs(fd, cmds3, NUM_REGS_CMD3);
+
 }
 
 void stop_camera_streaming(int fd)
